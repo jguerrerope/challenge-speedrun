@@ -1,0 +1,708 @@
+{
+  "data": [
+    {
+      "id": "k6qqkx6g",
+      "names": {
+        "international": "! Fishy !",
+        "japanese": null,
+        "twitch": "! Fishy !"
+      },
+      "abbreviation": "fishy",
+      "weblink": "https://www.speedrun.com/fishy",
+      "released": 2003,
+      "release-date": "2003-02-02",
+      "ruleset": {
+        "show-milliseconds": false,
+        "require-verification": true,
+        "require-video": true,
+        "run-times": [
+          "realtime"
+        ],
+        "default-time": "realtime",
+        "emulators-allowed": false
+      },
+      "romhack": false,
+      "gametypes": [],
+      "platforms": [
+        "lk3g84vd"
+      ],
+      "regions": [],
+      "genres": [],
+      "engines": [
+        "mg1j4w1r"
+      ],
+      "developers": [
+        "veg7rpe0"
+      ],
+      "publishers": [],
+      "moderators": {
+        "mkj9nw84": "super-moderator"
+      },
+      "created": "2016-05-28T23:21:12Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/fishy/logo.png",
+          "width": 180,
+          "height": 22
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/fishy/cover-32.png",
+          "width": 45,
+          "height": 32
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/fishy/cover-64.png",
+          "width": 90,
+          "height": 64
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/fishy/cover-128.png",
+          "width": 180,
+          "height": 128
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/fishy/cover-256.png",
+          "width": 360,
+          "height": 256
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/fishy/favicon.png",
+          "width": 32,
+          "height": 32
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/fishy/1st.png",
+          "width": 16,
+          "height": 15
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/fishy/2nd.png",
+          "width": 16,
+          "height": 15
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/fishy/3rd.png",
+          "width": 16,
+          "height": 15
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/fishy/background.png",
+          "width": 1400,
+          "height": 998
+        },
+        "foreground": {
+          "uri": "https://www.speedrun.com/themes/fishy/foreground.png",
+          "width": 200,
+          "height": 74
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?game=k6qqkx6g"
+        },
+        {
+          "rel": "levels",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g/levels"
+        },
+        {
+          "rel": "categories",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g/categories"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g/records"
+        },
+        {
+          "rel": "series",
+          "uri": "https://www.speedrun.com/api/v1/series/yr4gon12"
+        },
+        {
+          "rel": "derived-games",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g/derived-games"
+        },
+        {
+          "rel": "romhacks",
+          "uri": "https://www.speedrun.com/api/v1/games/k6qqkx6g/derived-games"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/k6qqkx6g/category/rklgq3rd"
+        }
+      ]
+    },
+    {
+      "id": "46wxo91r",
+      "names": {
+        "international": "&meow; (Meow)",
+        "japanese": null,
+        "twitch": "ᗢ (Meow)"
+      },
+      "abbreviation": "meow",
+      "weblink": "https://www.speedrun.com/meow",
+      "released": 2016,
+      "release-date": "2016-05-28",
+      "ruleset": {
+        "show-milliseconds": false,
+        "require-verification": true,
+        "require-video": true,
+        "run-times": [
+          "realtime"
+        ],
+        "default-time": "realtime",
+        "emulators-allowed": true
+      },
+      "romhack": false,
+      "gametypes": [],
+      "platforms": [
+        "8zjwp7vo",
+        "dl37oej6"
+      ],
+      "regions": [],
+      "genres": [],
+      "engines": [],
+      "developers": [],
+      "publishers": [],
+      "moderators": {
+        "zxz9kn8q": "super-moderator"
+      },
+      "created": "2016-08-08T19:48:46Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/meow/cover-32.png",
+          "width": 32,
+          "height": 37
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/meow/cover-64.png",
+          "width": 64,
+          "height": 74
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/meow/cover-128.png",
+          "width": 128,
+          "height": 148
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/meow/cover-256.png",
+          "width": 256,
+          "height": 296
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/meow/favicon.png",
+          "width": 55,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/meow/background.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "foreground": {
+          "uri": "https://www.speedrun.com/themes/meow/foreground.png",
+          "width": 1500,
+          "height": 300
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?game=46wxo91r"
+        },
+        {
+          "rel": "levels",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r/levels"
+        },
+        {
+          "rel": "categories",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r/categories"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r/records"
+        },
+        {
+          "rel": "series",
+          "uri": "https://www.speedrun.com/api/v1/series/yr4gon12"
+        },
+        {
+          "rel": "derived-games",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r/derived-games"
+        },
+        {
+          "rel": "romhacks",
+          "uri": "https://www.speedrun.com/api/v1/games/46wxo91r/derived-games"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/46wxo91r/category/w20zx3vd"
+        }
+      ]
+    },
+    {
+      "id": "pdvp7kdw",
+      "names": {
+        "international": "'Allo 'Allo! Cartoon Fun!",
+        "japanese": null,
+        "twitch": "'Allo 'Allo! Cartoon Fun!"
+      },
+      "abbreviation": "Allo_Allo_Cartoon_Fun",
+      "weblink": "https://www.speedrun.com/Allo_Allo_Cartoon_Fun",
+      "released": 1993,
+      "release-date": "1993-01-01",
+      "ruleset": {
+        "show-milliseconds": false,
+        "require-verification": true,
+        "require-video": true,
+        "run-times": [
+          "realtime"
+        ],
+        "default-time": "realtime",
+        "emulators-allowed": true
+      },
+      "romhack": false,
+      "gametypes": [],
+      "platforms": [
+        "gz3e8431"
+      ],
+      "regions": [
+        "e6lxy1dz"
+      ],
+      "genres": [
+        "94n4pn0w",
+        "qdnqkn8k",
+        "pm21dr24"
+      ],
+      "engines": [],
+      "developers": [
+        "w63pojzx"
+      ],
+      "publishers": [
+        "06022yrl"
+      ],
+      "moderators": {
+        "kj92on84": "moderator",
+        "98r77gj1": "super-moderator",
+        "y8d3z5x6": "super-moderator"
+      },
+      "created": "2015-10-16T13:50:43Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/Allo_Allo_Cartoon_Fun/cover-32.png",
+          "width": 32,
+          "height": 41
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/Allo_Allo_Cartoon_Fun/cover-64.png",
+          "width": 64,
+          "height": 82
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/Allo_Allo_Cartoon_Fun/cover-128.png",
+          "width": 128,
+          "height": 164
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/Allo_Allo_Cartoon_Fun/cover-256.png",
+          "width": 256,
+          "height": 328
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?game=pdvp7kdw"
+        },
+        {
+          "rel": "levels",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw/levels"
+        },
+        {
+          "rel": "categories",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw/categories"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw/records"
+        },
+        {
+          "rel": "series",
+          "uri": "https://www.speedrun.com/api/v1/series/yr4gon12"
+        },
+        {
+          "rel": "derived-games",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw/derived-games"
+        },
+        {
+          "rel": "romhacks",
+          "uri": "https://www.speedrun.com/api/v1/games/pdvp7kdw/derived-games"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/pdvp7kdw/category/n2yqvoek"
+        }
+      ]
+    },
+    {
+      "id": "m1m8opd2",
+      "names": {
+        "international": "'Splosion Man",
+        "japanese": null,
+        "twitch": "'Splosion Man"
+      },
+      "abbreviation": "Splosion_Man",
+      "weblink": "https://www.speedrun.com/Splosion_Man",
+      "released": 2009,
+      "release-date": "2009-07-22",
+      "ruleset": {
+        "show-milliseconds": true,
+        "require-verification": true,
+        "require-video": true,
+        "run-times": [
+          "realtime",
+          "ingame"
+        ],
+        "default-time": "realtime",
+        "emulators-allowed": true
+      },
+      "romhack": false,
+      "gametypes": [],
+      "platforms": [
+        "o23283p4"
+      ],
+      "regions": [
+        "pr184lqn",
+        "e6lxy1dz",
+        "o316x197",
+        "p2g50lnk"
+      ],
+      "genres": [
+        "q5w3vk2g"
+      ],
+      "engines": [
+        "k3lqqm5v"
+      ],
+      "developers": [
+        "4epx49zr"
+      ],
+      "publishers": [
+        "56472j6w"
+      ],
+      "moderators": {
+        "zxzn14xq": "super-moderator"
+      },
+      "created": "2017-04-10T04:06:31Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/Splosion_Man/cover-32.png",
+          "width": 32,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/Splosion_Man/cover-64.png",
+          "width": 64,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/Splosion_Man/cover-128.png",
+          "width": 128,
+          "height": 180
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/Splosion_Man/cover-256.png",
+          "width": 256,
+          "height": 360
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?game=m1m8opd2"
+        },
+        {
+          "rel": "levels",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2/levels"
+        },
+        {
+          "rel": "categories",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2/categories"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2/records"
+        },
+        {
+          "rel": "series",
+          "uri": "https://www.speedrun.com/api/v1/series/yr4gon12"
+        },
+        {
+          "rel": "derived-games",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2/derived-games"
+        },
+        {
+          "rel": "romhacks",
+          "uri": "https://www.speedrun.com/api/v1/games/m1m8opd2/derived-games"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/m1m8opd2/category/5dwygl0k"
+        }
+      ]
+    },
+    {
+      "id": "j1n4296p",
+      "names": {
+        "international": "'WWE Smackdown! Here Comes the Pain",
+        "japanese": null,
+        "twitch": "WWE Smackdown! Here Comes the Pain"
+      },
+      "abbreviation": "wwe_smackdown_here_comes_the_pain",
+      "weblink": "https://www.speedrun.com/wwe_smackdown_here_comes_the_pain",
+      "released": 2003,
+      "release-date": "2003-10-27",
+      "ruleset": {
+        "show-milliseconds": false,
+        "require-verification": true,
+        "require-video": true,
+        "run-times": [
+          "realtime"
+        ],
+        "default-time": "realtime",
+        "emulators-allowed": true
+      },
+      "romhack": false,
+      "gametypes": [],
+      "platforms": [
+        "k93o5jwq"
+      ],
+      "regions": [
+        "pr184lqn",
+        "e6lxy1dz",
+        "o316x197"
+      ],
+      "genres": [],
+      "engines": [],
+      "developers": [],
+      "publishers": [],
+      "moderators": {
+        "v8lo1v8m": "super-moderator",
+        "qxkl4680": "super-moderator",
+        "18v59dvj": "super-moderator"
+      },
+      "created": "2015-01-08T19:40:18Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/wwe_smackdown_here_comes_the_pain/logo.png",
+          "width": 180,
+          "height": 32
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/wwe_smackdown_here_comes_the_pain/cover-32.png",
+          "width": 32,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/wwe_smackdown_here_comes_the_pain/cover-64.png",
+          "width": 64,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/wwe_smackdown_here_comes_the_pain/cover-128.png",
+          "width": 128,
+          "height": 180
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/wwe_smackdown_here_comes_the_pain/cover-256.png",
+          "width": 256,
+          "height": 360
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/wwe_smackdown_here_comes_the_pain/favicon.png",
+          "width": 32,
+          "height": 32
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?game=j1n4296p"
+        },
+        {
+          "rel": "levels",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p/levels"
+        },
+        {
+          "rel": "categories",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p/categories"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p/records"
+        },
+        {
+          "rel": "series",
+          "uri": "https://www.speedrun.com/api/v1/series/wnp18znm"
+        },
+        {
+          "rel": "derived-games",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p/derived-games"
+        },
+        {
+          "rel": "romhacks",
+          "uri": "https://www.speedrun.com/api/v1/games/j1n4296p/derived-games"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/j1n4296p/category/7dg11xd4"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 5,
+    "size": 5,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/games?max=5&offset=5"
+      }
+    ]
+  }
+}

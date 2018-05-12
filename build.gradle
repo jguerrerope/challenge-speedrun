@@ -42,6 +42,7 @@ ext {
     // android architecture components
     archLifecycleVersion = '1.1.1'
     roomVersion = '1.1.0'
+    pagingVersion = '1.0.0'
 
     // android view vendor utils
     glideVersion = '4.3.0'

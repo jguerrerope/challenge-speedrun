@@ -1,4 +1,4 @@
-package com.jguerrerope.speedrunchallenge.di
+package com.jguerrerope.speedrun.di
 
 import android.arch.lifecycle.ViewModel
 import dagger.MapKey

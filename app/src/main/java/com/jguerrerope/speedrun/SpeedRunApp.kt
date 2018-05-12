@@ -1,8 +1,8 @@
-package com.jguerrerope.speedrunchallenge
+package com.jguerrerope.speedrun
 
 import android.app.Activity
 import android.app.Application
-import com.jguerrerope.speedrunchallenge.di.AppInjector
+import com.jguerrerope.speedrun.di.AppInjector
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
@@ -11,7 +11,7 @@ import javax.inject.Inject
 /**
  * Android Main Application
  */
-class SpeedrunApp : Application(), HasActivityInjector {
+class SpeedRunApp : Application(), HasActivityInjector {
 
     @Inject
     lateinit var activityInjector: DispatchingAndroidInjector<Activity>

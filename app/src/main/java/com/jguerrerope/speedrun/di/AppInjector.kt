@@ -1,4 +1,4 @@
-package com.jguerrerope.speedrunchallenge.di
+package com.jguerrerope.speedrun.di
 
 import android.app.Activity
 import android.app.Application
@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
 import android.support.v4.app.FragmentManager
-import com.jguerrerope.speedrunchallenge.SpeedrunApp
+import com.jguerrerope.speedrun.SpeedRunApp
 import dagger.android.AndroidInjection
 import dagger.android.support.AndroidSupportInjection
 import dagger.android.support.HasSupportFragmentInjector
 
 object AppInjector {
 
-    fun init(app: SpeedrunApp) {
+    fun init(app: SpeedRunApp) {
         DaggerAppComponent.builder()
                 .application(app)
                 .build()

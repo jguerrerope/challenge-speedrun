@@ -1,4 +1,4 @@
-package com.jguerrerope.speedrunchallenge
+package com.jguerrerope.speedrun
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

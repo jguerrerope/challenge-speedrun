@@ -1,4 +1,4 @@
-package com.jguerrerope.speedrunchallenge
+package com.jguerrerope.speedrun
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

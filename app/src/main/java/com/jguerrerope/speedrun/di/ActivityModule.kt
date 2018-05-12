@@ -1,4 +1,4 @@
-package com.jguerrerope.speedrunchallenge.di
+package com.jguerrerope.speedrun.di
 
 import dagger.Module
 

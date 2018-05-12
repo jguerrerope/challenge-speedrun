@@ -1,6 +1,6 @@
-package com.jguerrerope.speedrunchallenge.di
+package com.jguerrerope.speedrun.di
 
-import com.jguerrerope.speedrunchallenge.SpeedrunApp
+import com.jguerrerope.speedrun.SpeedRunApp
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
@@ -17,10 +17,10 @@ abstract class AppComponent {
     @Component.Builder
     interface Builder {
         @BindsInstance
-        fun application(application: SpeedrunApp): Builder
+        fun application(application: SpeedRunApp): Builder
 
         fun build(): AppComponent
     }
 
-    abstract fun inject(app: SpeedrunApp)
+    abstract fun inject(app: SpeedRunApp)
 }

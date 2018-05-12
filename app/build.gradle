@@ -9,7 +9,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.jguerrerope.speedrunchallenge"
+        applicationId "com.jguerrerope.speedrun"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.appVersionCode
@@ -53,6 +53,7 @@ dependencies {
     implementation "android.arch.persistence.room:runtime:$rootProject.roomVersion"
     implementation "android.arch.persistence.room:rxjava2:$rootProject.roomVersion"
     kapt "android.arch.persistence.room:compiler:$rootProject.roomVersion"
+    implementation "android.arch.paging:runtime:$rootProject.pagingVersion"
 
     // android view vendor utils
     implementation "com.github.bumptech.glide:glide:$rootProject.glideVersion"

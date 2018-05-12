@@ -1,9 +1,9 @@
-package com.jguerrerope.speedrunchallenge.ui
+package com.jguerrerope.speedrun.ui
 
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.jguerrerope.speedrunchallenge.R
+import com.jguerrerope.speedrun.R
 
 class GameListActivity : AppCompatActivity() {
 

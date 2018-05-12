@@ -1,9 +1,9 @@
-package com.jguerrerope.speedrunchallenge.ui
+package com.jguerrerope.speedrun.ui
 
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
-import com.jguerrerope.speedrunchallenge.R
+import com.jguerrerope.speedrun.R
 import org.jetbrains.anko.startActivity
 import java.util.concurrent.TimeUnit
 
