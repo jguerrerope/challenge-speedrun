@@ -14,8 +14,5 @@ data class PaginationTO(
         val max: Int,
 
         @SerializedName("size")
-        val size: Int,
-
-        @SerializedName("links")
-        val links: List<PaginationRel>
+        val size: Int
 )

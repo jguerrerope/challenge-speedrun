@@ -44,7 +44,7 @@ class SpeedRunServiceTest {
     @Test
     fun success() {
         enqueueResponse("games-page-1.json")
-        service.getGamesPageList(offset = 5)
+        service.getGamesPageList(offset = 5,max = 5)
                 .test()
                 .assertValue { it.data.size == 5}
                 .assertValue { it.pagination.offset == 0 }
@@ -53,7 +53,7 @@ class SpeedRunServiceTest {
     @Test
     fun badRequest() {
         mockWebServer.enqueue(MockResponse().setBody("{error:\"bad request\"").setResponseCode(400))
-        service.getGamesPageList(offset = any())
+        service.getGamesPageList(offset = any(),max = any())
                 .test()
                 .assertError(HttpException::class.java)
     }
