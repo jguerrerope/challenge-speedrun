@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Speedrun Challenge</string>
+    <string name="network_error">Oooops… Something went wrong. Check your internet connection and</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="overview">Overview</string>
 </resources>

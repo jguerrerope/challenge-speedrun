@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="16dp"
+    app:cardUseCompatPadding="true"
+    tools:parentTag="android.support.v7.widget.CardView">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gameImageView"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/gameTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/game_placeholder" />
+
+        <TextView
+            android:id="@+id/gameTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:textAppearance="@style/TextLatoBold16.Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/gameImageView"
+            app:layout_constraintRight_toRightOf="@+id/gameImageView"
+            app:layout_constraintTop_toBottomOf="@+id/gameImageView"
+            app:layout_constraintVertical_bias="0.5"
+            tools:text="@sample/game.json/title" />
+
+    </android.support.constraint.ConstraintLayout>
+</merge>
