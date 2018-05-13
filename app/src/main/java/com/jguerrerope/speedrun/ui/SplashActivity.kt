@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import com.jguerrerope.speedrun.R
+import com.jguerrerope.speedrun.ui.gamelist.GameListActivity
 import org.jetbrains.anko.startActivity
 import java.util.concurrent.TimeUnit
 

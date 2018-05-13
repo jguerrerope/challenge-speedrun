@@ -23,12 +23,11 @@ class AppModule {
         clientBuilder.addInterceptor(loggingInterceptor)
 
         return Retrofit.Builder()
-                .baseUrl(SpeedRunConfiguration.SPEEDRUN_BASE_URL)
+                .baseUrl(SpeedRunConfiguration.SPEED_RUN_BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .client(clientBuilder.build())
                 .build()
                 .create<SpeedRunService>(SpeedRunService::class.java)
     }
-
 }

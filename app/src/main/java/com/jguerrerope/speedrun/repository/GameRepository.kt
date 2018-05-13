@@ -5,7 +5,7 @@ import com.jguerrerope.speedrun.domain.Listing
 import io.reactivex.Scheduler
 
 /**
- * Repository to handle which data source must be used to provide all repo related information
+ * Repository to handle which data source must be used to provide all game related information
  */
 interface GameRepository {
     /**
@@ -14,7 +14,7 @@ interface GameRepository {
      * @param itemsPerPage The number of items that we want to retrieve
      * @param prefetchDistance
      * @param backgroundScheduler The scheduler of background processing
-     * @return [Listing]  a Listing for the given Movie popular.
+     * @return [Listing]  a Listing for the given Game popular.
      */
     fun getGameListing(itemsPerPage: Int, prefetchDistance: Int, backgroundScheduler: Scheduler): Listing<Game>
 
