@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 /**
  * Class to represent the SpeedRun's Game Name
  */
-data class GameNameTO(
+data class NameTO(
         @SerializedName("international")
         val international: String,
 

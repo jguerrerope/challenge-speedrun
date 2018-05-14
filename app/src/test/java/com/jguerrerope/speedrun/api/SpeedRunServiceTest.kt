@@ -42,18 +42,35 @@ class SpeedRunServiceTest {
     }
 
     @Test
-    fun success() {
-        enqueueResponse("games-page-1.json")
-        service.getGamesPageList(offset = 5,max = 5)
+    fun success_getGamesPageList() {
+        enqueueResponse("games-page.json")
+        service.getGamesPageList(offset = 5, max = 5)
                 .test()
-                .assertValue { it.data.size == 5}
+                .assertValue { it.data.size == 5 }
                 .assertValue { it.pagination.offset == 0 }
+    }
+
+    @Test
+    fun success_getRunPageList() {
+        enqueueResponse("runs-page.json")
+        service.getRunPageList(gameId = "test", offset = 5, max = 5)
+                .test()
+                .assertValue { it.data.size == 5 }
+                .assertValue { it.pagination.offset == 0 }
+    }
+
+    @Test
+    fun success_getUserById() {
+        enqueueResponse("user-request.json")
+        service.getUserById(userId = "v48grxpr")
+                .test()
+                .assertValue { it.data.id == "v48grxpr" }
     }
 
     @Test
     fun badRequest() {
         mockWebServer.enqueue(MockResponse().setBody("{error:\"bad request\"").setResponseCode(400))
-        service.getGamesPageList(offset = any(),max = any())
+        service.getGamesPageList(offset = any(), max = any())
                 .test()
                 .assertError(HttpException::class.java)
     }

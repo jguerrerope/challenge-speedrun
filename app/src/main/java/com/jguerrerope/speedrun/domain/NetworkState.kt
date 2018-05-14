@@ -1,12 +1,5 @@
 package com.jguerrerope.speedrun.domain
 
-enum class Status {
-    LOADING,
-    INITIAL_LOADING,
-    NEXT_LOADING,
-    SUCCESS,
-    FAILED
-}
 
 @Suppress("DataClassPrivateConstructor")
 data class NetworkState private constructor(
@@ -20,7 +13,6 @@ data class NetworkState private constructor(
         val INITIAL_LOADING = NetworkState(Status.INITIAL_LOADING)
         val NEXT_LOADING = NetworkState(Status.NEXT_LOADING)
 
-        fun error(msg: String?) = NetworkState(Status.FAILED, msg)
         fun error(throwable: Throwable) = NetworkState(Status.FAILED, throwable.message)
     }
 }

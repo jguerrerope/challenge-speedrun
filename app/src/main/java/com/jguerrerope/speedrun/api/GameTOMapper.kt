@@ -11,17 +11,22 @@ class GameTOMapper @Inject constructor() {
                 .map { value.assets[it]?.uri }
                 .first() ?: ""
 
-        val imageSmall = arrayOf(GameTO.ASSET_COVER_SMALL, GameTO.ASSET_LOGO)
+        val imageSmall = arrayOf(GameTO.ASSET_COVER_SMALL, GameTO.ASSET_COVER_MEDIUM)
                 .map { value.assets[it]?.uri }
                 .first() ?: ""
+
+        val imageLogo = arrayOf(GameTO.ASSET_LOGO, GameTO.ASSET_COVER_LARGE)
+                .map { value.assets[it]?.uri }
+                .first() ?: ""
+
         return Game(
                 id = value.id,
                 title = value.names.international,
                 imageLarge = imageLarge,
-                imageSmall = imageSmall
+                imageSmall = imageSmall,
+                imageLogo = imageLogo
         )
     }
-
 
     fun toEntity(values: List<GameTO>): List<Game> = values.map { toEntity(it) }
 }

@@ -10,7 +10,7 @@ data class GameTO(
         val id: String,
 
         @SerializedName("names")
-        val names: GameNameTO,
+        val names: NameTO,
 
         @SerializedName("abbreviation")
         val abbreviation: String,
@@ -22,7 +22,7 @@ data class GameTO(
         val releaseDate: String,
 
         @SerializedName("assets")
-        val assets: HashMap<String, GameAsset>
+        val assets: HashMap<String, GameAssetTO>
 ) {
     companion object {
         const val ASSET_LOGO = "logo"

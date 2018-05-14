@@ -3,7 +3,8 @@ package com.jguerrerope.speedrun.repository
 import android.arch.core.executor.testing.InstantTaskExecutorRule
 import com.jguerrerope.speedrun.api.GameTOMapper
 import com.jguerrerope.speedrun.api.SpeedRunService
-import com.jguerrerope.speedrun.api.model.GamePageResponse
+import com.jguerrerope.speedrun.api.model.PageResponse
+import com.jguerrerope.speedrun.api.model.to.GameTO
 import com.jguerrerope.speedrun.api.model.to.PaginationTO
 import com.jguerrerope.speedrun.utils.TestUtils
 import com.nhaarman.mockito_kotlin.doReturn
@@ -73,7 +74,7 @@ class GameRepositoryTest {
     companion object {
         private const val DEFAULT_ITEM_PER_PAGE = 5
 
-        private val EMPTY_GAME_PAGE_RESPONSE = GamePageResponse(
+        private val EMPTY_GAME_PAGE_RESPONSE = PageResponse<GameTO>(
                 data = arrayListOf(),
                 pagination = PaginationTO(
                         offset = 5,
@@ -82,7 +83,7 @@ class GameRepositoryTest {
                 )
         )
 
-        private val GAME_PAGE_RESPONSE_1 = GamePageResponse(
+        private val GAME_PAGE_RESPONSE_1 = PageResponse(
                 data = TestUtils.createGameTOList(DEFAULT_ITEM_PER_PAGE),
                 pagination = PaginationTO(
                         offset = 5,
@@ -91,7 +92,7 @@ class GameRepositoryTest {
                 )
         )
 
-        private val GAME_PAGE_RESPONSE_2 = GamePageResponse(
+        private val GAME_PAGE_RESPONSE_2 = PageResponse(
                 data = TestUtils.createGameTOList(DEFAULT_ITEM_PER_PAGE, indexInit = 5),
                 pagination = PaginationTO(
                         offset = 5,

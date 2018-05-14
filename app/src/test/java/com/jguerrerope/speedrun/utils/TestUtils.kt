@@ -1,8 +1,8 @@
 package com.jguerrerope.speedrun.utils
 
 import android.arch.paging.PagedList
-import com.jguerrerope.speedrun.api.model.to.GameNameTO
 import com.jguerrerope.speedrun.api.model.to.GameTO
+import com.jguerrerope.speedrun.api.model.to.NameTO
 import com.jguerrerope.speedrun.domain.Game
 import com.jguerrerope.speedrun.domain.Listing
 import org.hamcrest.CoreMatchers
@@ -19,7 +19,7 @@ object TestUtils {
             val index = it + indexInit
             GameTO(
                     id = "id $index",
-                    names = GameNameTO(
+                    names = NameTO(
                             international = "international $index",
                             japanese = "japanese $index",
                             twitch = "twitch $index"
