@@ -40,11 +40,19 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
+    <style name="TextLatoBold16.White" parent="TextLatoBold16">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
     <style name="TextLatoBold20" parent="TextLatoBold">
         <item name="android:textSize">@dimen/text_size_20</item>
     </style>
 
     <style name="TextLatoBold20.Black" parent="TextLatoBold20">
         <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextLatoBold20.Accent" parent="TextLatoBold20">
+        <item name="android:textColor">@color/colorAccent</item>
     </style>
 </resources>
