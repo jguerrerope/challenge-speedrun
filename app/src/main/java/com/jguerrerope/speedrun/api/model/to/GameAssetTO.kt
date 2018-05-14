@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName
 /**
  * Class to represent the SpeedRu's Game Asset
  */
-data class GameAsset(
+data class GameAssetTO(
         @SerializedName("uri")
         val uri: String,
 

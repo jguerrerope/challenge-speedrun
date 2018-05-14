@@ -12,10 +12,9 @@ interface GameRepository {
      * Gets a [Listing] of Game
      *
      * @param itemsPerPage The number of items that we want to retrieve
-     * @param prefetchDistance
+     * @param prefetchDistance Defines how many items to load when first load occurs.
      * @param backgroundScheduler The scheduler of background processing
      * @return [Listing]  a Listing for the given Game popular.
      */
     fun getGameListing(itemsPerPage: Int, prefetchDistance: Int, backgroundScheduler: Scheduler): Listing<Game>
-
 }

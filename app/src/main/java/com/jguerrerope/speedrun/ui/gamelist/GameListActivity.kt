@@ -13,7 +13,9 @@ import com.jguerrerope.speedrun.di.Injectable
 import com.jguerrerope.speedrun.domain.NetworkState
 import com.jguerrerope.speedrun.domain.Status
 import com.jguerrerope.speedrun.extension.observe
+import com.jguerrerope.speedrun.ui.gamedetails.GameDetailsActivity
 import kotlinx.android.synthetic.main.activity_game_list.*
+import org.jetbrains.anko.startActivity
 import javax.inject.Inject
 
 class GameListActivity : AppCompatActivity(), Injectable {
@@ -31,11 +33,10 @@ class GameListActivity : AppCompatActivity(), Injectable {
         setUpViewModels()
     }
 
-
     private fun setUpViews() {
         setUpToolbar()
         adapter = GamePagedListAdapter {
-            // TODO
+            startActivity<GameDetailsActivity>(Pair(GameDetailsActivity.EXTRA_GAME, it))
         }
         recyclerView.apply {
             layoutManager = LinearLayoutManager(this@GameListActivity)

@@ -1,14 +1,14 @@
 package com.jguerrerope.speedrun.api.model
 
 import com.google.gson.annotations.SerializedName
-import com.jguerrerope.speedrun.api.model.to.GameTO
 import com.jguerrerope.speedrun.api.model.to.PaginationTO
 
-data class GamePageResponse(
-        @SerializedName("data")
-        val data: List<GameTO>,
-
+data class PageResponse<T> constructor(
         @SerializedName("pagination")
-        val pagination: PaginationTO
+        val pagination: PaginationTO,
+
+        @SerializedName("data")
+        val data: List<T>
 )
+
 
